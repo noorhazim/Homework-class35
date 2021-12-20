@@ -1,0 +1,7 @@
+
+*** Spell Checker Report ***
+
+ex3-tellFortune.js:53:28 - Unknown word (Dilan)
+ex3-tellFortune.js:53:37 - Unknown word (Dilan)
+ex3-tellFortune.js:53:46 - Unknown word (Dilan)
+ex3-tellFortune.js:53:55 - Unknown word (Dilan)
