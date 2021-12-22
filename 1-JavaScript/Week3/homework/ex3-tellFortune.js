@@ -36,7 +36,7 @@ body, this code is now written once only in a separated function.
 
 function selectRandomly(value) {
 
-    const randomValue = value[Math.floor((Math.random() * 5))];
+    const randomValue = value[Math.floor((Math.random() * value.length))];
 
     return randomValue;
 }

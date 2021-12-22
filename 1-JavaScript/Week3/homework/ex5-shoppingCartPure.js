@@ -19,9 +19,9 @@ it pure. Do the following:
 function addToShoppingCart(arr, item) {
 
     const newShoppingCart = [...arr];
-    newShoppingCart.push(item);
-    if (item === undefined) {
-        newShoppingCart.pop();
+
+    if (item !== undefined) {
+        newShoppingCart.push(item);
     }
     if (newShoppingCart.length > 3) {
         newShoppingCart.shift();

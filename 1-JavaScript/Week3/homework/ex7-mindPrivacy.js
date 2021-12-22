@@ -30,10 +30,10 @@ const employeeRecords = [{
 
 // ! Function under test
 function filterPrivateData(employeeRecordsData) {
-    let employeeData = [];
-    for (const { name: n, occupation: o, email: e }
+    const employeeData = [];
+    for (const { name, occupation, email }
         of employeeRecordsData) {
-        let item = { name: n, occupation: o, email: e };
+        const item = { name: name, occupation: occupation, email: email };
         employeeData.push(item)
     }
     return employeeData

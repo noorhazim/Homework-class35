@@ -1,39 +1,55 @@
 {
-  "node": "v14.15.1",
+  "node": "v17.2.0",
   "system": {
-    "manufacturer": "Apple Inc.",
-    "model": "MacBookPro11,3"
+    "manufacturer": "HUAWEI",
+    "model": "WRTB-WXX9"
   },
   "cpu": {
     "manufacturer": "Intel®",
-    "brand": "Core™ i7-4960HQ",
-    "speed": 2.6
+    "brand": "Core™ i7-10510U",
+    "speed": 1.8
   },
   "memory": "16 GB",
   "osInfo": {
-    "platform": "darwin",
-    "distro": "macOS",
-    "release": "11.5.2"
+    "platform": "Windows",
+    "distro": "Microsoft Windows 10 Home",
+    "release": "10.0.19042"
   },
   "vscodeInfo": {
-    "version": "1.62.1",
+    "version": "1.63.1",
     "extensions": [
+      "abusaidm.html-snippets",
+      "batisteo.vscode-django",
+      "bierner.lit-html",
+      "Compulim.compulim-vscode-closetag",
+      "donjayamanne.python-environment-manager",
+      "donjayamanne.python-extension-pack",
+      "ecmel.vscode-html-css",
       "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "geyao.html-snippets",
+      "KevinRose.vsc-python-indent",
+      "kiteco.kite",
+      "lonefy.vscode-JS-CSS-HTML-formatter",
+      "magicstack.MagicPython",
+      "mkaufman.HTMLHint",
+      "mohd-akram.vscode-html-format",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-toolsai.jupyter",
+      "ms-toolsai.jupyter-keymap",
+      "ms-toolsai.jupyter-renderers",
+      "njpwerner.autodocstring",
+      "piyushvscode.nodejs-snippets",
+      "ritwickdey.live-sass",
       "ritwickdey.LiveServer",
-      "shd101wyy.markdown-preview-enhanced"
+      "sidthesloth.html5-boilerplate",
+      "syler.sass-indented",
+      "tht13.html-preview-vscode",
+      "VisualStudioExptTeam.vscodeintellicode",
+      "WallabyJs.quokka-vscode",
+      "wholroyd.jinja"
     ],
-    "userSettings": {
-      "explorer.confirmDragAndDrop": false,
-      "explorer.confirmDelete": false,
-      "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "javascript.updateImportsOnFileMove.enabled": "never",
-      "editor.formatOnSave": true,
-      "editor.tabSize": 2,
-      "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      }
-    }
+    "userSettings": {}
   }
 }
