@@ -1,0 +1,4 @@
+
+*** Spell Checker Report ***
+
+ex1-bookList/index.js:35:20 - Unknown word (bookimage)

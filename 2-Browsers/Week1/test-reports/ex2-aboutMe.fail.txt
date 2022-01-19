@@ -1,0 +1,5 @@
+
+*** Spell Checker Report ***
+
+ex2-aboutMe/index.js:19:27 - Unknown word (Noor)
+ex2-aboutMe/index.js:22:26 - Unknown word (Dolma)

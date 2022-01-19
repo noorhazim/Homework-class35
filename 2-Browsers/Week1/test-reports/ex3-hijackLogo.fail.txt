@@ -1,0 +1,12 @@
+
+*** ESLint Report ***
+
+ex3-hijackLogo.js
+  11:9  warning  'logoEl' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+*** Spell Checker Report ***
+
+ex3-hijackLogo.js:11:45 - Unknown word (Xdpd)
