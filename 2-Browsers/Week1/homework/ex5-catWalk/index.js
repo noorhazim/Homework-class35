@@ -21,23 +21,33 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
-const imgEl = document.querySelector('img');
-let startTime = new Date().getTime();
-imgEl.style.left = 0 + "px";
+const walkingCatImg = document.querySelector('img');
+const dancingCat = 'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+const walkingCat = 'http://www.anniemation.com/clip_art/images/cat-walk.gif'
+let position = 0;
+let screenFinished;
 
 function catWalk() {
-    const currTime = new Date().getTime();
-    const newLeft = (currTime - startTime) * 0.1;
-    if (newLeft > window.screen.width) {
-        startTime = currTime;
-    }
-    if (newLeft === window.screen.width / 2) {
-        imgEl.src = 'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
-    }
-    imgEl.style.left = newLeft + "px";
-    setInterval(catWalk, 50);
-}
+    walkingCatImg.style.left = `${position}px`;
+    position += 10;
 
-window.addEventListener('load', () => {
-    catWalk();
-})
+    if (position > innerWidth - walkingCatImg.width) {
+        position = 0;
+        walkingCatImg.style.left = `${position}px`;
+        screenFinished = false;
+    }
+
+
+    if (position >= (innerWidth - walkingCatImg.width) / 2 && !screenFinished) {
+        screenFinished = true;
+        clearInterval(interval);
+        walkingCatImg.src = dancingCat;
+        setTimeout(() => {
+            walkingCatImg.src = walkingCat;
+            interval = setInterval(catWalk, 50);
+        }, 5000);
+    }
+
+}
+let interval = setInterval(catWalk, 50);
+window.addEventListener('load', interval);
